@@ -1,0 +1,20 @@
+:root {
+    --primary-color: #153b2f;
+    --primary-hover: #52d582;
+    --bg-dark: #031500;
+    --card-bg: #1e1e1e;
+    --text-primary: #fff;
+    --text-secundary: #b3b3b3;
+    --error-color: #ff6b6b;
+    --sucess-color: #4caf50;
+    --input-bg: #2c2c2c;
+    --border-radius: 8px;
+    --box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2)
+    --transition: all 0.3s ease;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
