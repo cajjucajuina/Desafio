@@ -1,3 +1,4 @@
+
 .toad{
     position: absolute;
     display: flex;
@@ -5,12 +6,12 @@
     
 }
 .cereja{
-    background-color:var(--primary-hover);
+    background-color:#153b2f;
 
 }
 .tva{
     size-adjust:4rem;
 }
 h1{
-    text-emphasis-color:var(--text-primary) ;
+    text-emphasis-color:#fff ;
 }
