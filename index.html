@@ -15,11 +15,22 @@
 
         <div class="toad">
             <ol class="form-list">
-                <li>conteudo</li>
-                <li>menu</li>
-                <li>fim</li>
-                <li>acessibelidade</li>
-                <li>alto contraste</li>
+            
+            <div class="content">
+                <a href="/conteudo">conteudo</a>
+            </div>
+            <div class="menu">
+                <a href="/menu">Menu</a>
+            </div>
+            <div class="Fim">
+                <a href="/Fim">Fim</a>
+            </div>
+            <div class="acessibelidade">
+                <a href="/acessibelidade">acessibelidade</a>
+            </div>
+            <div class="alto-contraste">
+                <a href="/alto-contraste">alto contraste</a>
+            </div>
             </ol>
         </div>
 
@@ -34,55 +45,97 @@
 
     <main>
         <div class="container-login">
-            <form class="login">
+            <form class="login"  action="/login" method="POST">
                 <div class="dados">
-                    <label for="user">Nome completo:</label>
-                    <input type="text"" name=" id-e" id="user">
-                    <select>"sexo" id="sexo-dado">
-                        <option value></option>
-                        <option value="F">Feminino</option>
-                        <option value="M">Masculino</option>
-                        <option value="n">Não especificado</option>
-                    </select>
+                    <div>
+                        <label for="user">Nome completo*:</label>
+                        <input type="text" name=" id-e" id="user">
+                        <p>sexo:</p>
+                        <select>"sexo" id="sexo-dado">
+                            <option value></option>
+                            <option value="F">Feminino</option>
+                            <option value="M">Masculino</option>
+                            <option value="n">Não especificado</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="user">Nome Do filiado 1:</label>
+                        <input type="text" name=" id-e" id="user">
+                        <p>sexo:</p>
+                        <select>"sexo" id="sexo-dado">
+                            <option value></option>
+                            <option value="F">Feminino</option>
+                            <option value="M">Masculino</option>
+                            <option value="n">Não especificado</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="user">Nome do filiado 2:</label>
+                        <input type="text" name=" id-e" id="user">
+                        <select>"sexo" id="sexo-dado"><p>sexo:</p>
+                            <option value></option>
+                            <option value="F">Feminino</option>
+                            <option value="M">Masculino</option>
+                            <option value="n">Não especificado</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="data">Data de nascimento*:</label>
+                        <input type="date" name="data" id="data">
+                        class="options">
 
-
-
-
-                    <label for="user">Nome Do filiado 1:</label>
-                    <input type="text"" name=" id-e" id="user">
-                    <select>"sexo" id="sexo-dado">
-                        <option value></option>
-                        <option value="F">Feminino</option>
-                        <option value="M">Masculino</option>
-                        <option value="n">Não especificado</option>
-                    </select>
-
-                    <label for="user">Nome do filiado 2:</label>
-                    <input type="text"" name=" id-e" id="user">
-                    <select>"sexo" id="sexo-dado">
-                        <option value></option>
-                        <option value="F">Feminino</option>
-                        <option value="M">Masculino</option>
-                        <option value="n">Não especificado</option>
-                    </select>
-            
-                <div>
-                    <label for="data">Data de nascimento:</label>
-                    <input type="date" name="data" id="data">
-                    <div class="options">
-                         class="emancipado">
                             <input type="checkbox" id="emancipado" name="emancipado">
                             <label for="emancipado">emancipado</label>
-                        
-                            <input type="checkbox" id="adotion" name="adocao">
-                            <label for="adocao">adocao internacional</label>
-                            
-                        
-                        
-                </div>
 
-        </div>
-        </form>
+                            <input type="checkbox" id="adotion" name="adocao">
+                            <label for="adocao">adocao internacional</label>     
+                    </div>
+                    <div>
+                    <p>raça ou cor*:</p>
+                    <select>"cor" id="cor">
+                        <option value></option>
+                        <option value="A">Amarela</option>
+                        <option value="B">Branca</option>
+                        <option value="I">indigena</option>
+                        <option value="R">Parda</option>
+                        <option value="P">Preta</option>
+                        <option value="I">não desejo especificar</option>
+           
+                    </select>
+                    <p>Estado cívil*:</p>
+                    <select>"Estado" id="Estado">
+                        <option value></option>
+                        <option value="S">Solteiro</option>
+                        <option value="C">Casado</option>
+                        <option value="V">Viuvo</option>
+                        <option value="S">Separado judicialmente</option>
+                        <option value="U">Uniao estavel</option>
+                        <option value="D">Divorciado</option>
+           
+                    </select>
+                </div>
+                <div class="nascimento">
+                    <h1 >local de nascimento</h1>
+<div>
+    <label for="user">Nacionalidade*:</label>
+    <input type="text"name=" id" id="user">
+    <label for="user">Uf*:</label>
+    <input type="text"name=" id-e" id="user">
+</div>
+<div>   <label for="city">Cidade*:</label>
+    <input type="text"name=" id-e" id="city"></div>
+</div>
+
+                </div>
+                <h1>Nomes anteriores</h1>
+                <label for="user">Nome anterior:</label>
+    <input type="text"name=" id" id="nome">
+    <label for="user">Por que motivo a mudança?:</label>
+    <input type="text"name=" id-e" id="mud">
+                </div>
+                <div></div>
+            </form>
+
 
     </main>
 
