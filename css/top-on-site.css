@@ -11,3 +11,6 @@
 .tva{
     size-adjust:4rem;
 }
+h1{
+    text-emphasis-color:var(--text-primary) ;
+}
