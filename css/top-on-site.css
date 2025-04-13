@@ -2,8 +2,12 @@
     position: absolute;
     display: flex;
     align-items: first baseline;
+    
 }
 .cereja{
+    color: var(--primary-hover);
 
 }
-.tva{}
+.tva{
+    size-adjust: var(--primary-hover);
+}
