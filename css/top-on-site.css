@@ -7,11 +7,16 @@
 }
 .cereja{
     background-color:#153b2f;
-
+    
+    display:flex;
 }
 .tva{
+    display:flex;
     size-adjust:4rem;
 }
+
+
+
 h1{
     text-emphasis-color:#fff ;
 }
